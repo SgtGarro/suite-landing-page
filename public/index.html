@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Frontend Mentor | Suite landing page</title>
+</head>
+<body class="font-epilogue">
+  <header class="flex justify-between items-center py-6 px-4 md:container md:mx-auto">
+    <a href="#"><img src="assets/logo.svg" alt="Logo" width="78" height="24"></a>
+    <a href="#" class="secondary-button">Request Beta Access</a>
+  </header>
+  <main>
+    <!-- Hero Section-->
+    <section class="px-4 mt-10 md:container md:mx-auto lg:flex lg:gap-x-24 lg:mt-16">
+      <div class="md:relative lg:w-full ">
+        <div class="md:w-[530px] md:pb-10 md:pt-20 md:relative z-10 lg:w-[630px] lg:py-24">
+          <h1 class="heading-xl text-darkBlue">A <b>super solution</span></b> for your <b>business.</b></h1>
+          <p class="body-text text-grey mt-8 md:w-[350px] md:mt-10">Our marketing and sales automations help you scale your outreach to get more leads for your company.</p>
+          <a href="#" class="primary-button mt-8 md:mt-10">Request Beta Access</a>
+        </div>
+        <img class="mt-14 md:hidden" src="assets/image-hero-landscape@2x.webp" alt="phone">
+        <img class="hidden md:block absolute h-full right-0 top-0 z-0" src="assets/image-hero-portrait@2x.webp" alt="">
+      </div>
+      <div class="mt-14 flex flex-col gap-y-8 items-center text-center md:flex-row md:justify-around md:mt-[88px] lg:flex-col lg:m-0 lg:justify-evenly">
+        <div>
+          <h2 class="heading-l font-bold text-darkBlue">2K+</h2>
+          <h4 class="heading-s text-grey">COMPANIES</h4>
+        </div>
+        <div>
+          <h2 class="heading-l font-bold text-darkBlue">8</h2>
+          <h4 class="heading-s text-grey">LANGUAGES</h4></div>
+        <div>
+          <h2 class="heading-l font-bold text-darkBlue">1.2M</h2>
+          <h4 class="heading-s text-grey">LEADS</h4>
+        </div>
+      </div>
+    </section>
+    <!-- Another Section-->
+    <section class="mt-[230px] md:container md:mx-auto md:mt-[280px] lg:mt-[200px]">
+      <!-- Card Blue-->
+      <div class="bg-darkBlue px-4 py-16 rounded-2xl md:px-16 md:py-16 lg:py-0">
+        <div class="text-center flex flex-col items-center lg:flex-row lg:gap-x-14 lg:w-fit lg:mx-auto lg:relative lg:text-left">
+          <div class="-mt-60 relative flex flex-col items-center lg:m-0">
+            <span class="bg-jeremy_small w-[240px] h-[391px] bg-center bg-no-repeat bg-cover block z-10 lg:w-[360px] lg:h-[590px] lg:-mt-7"></span>
+            <span class="hidden bg-pattern_blur md:block w-[420px] h-[420px] bg-cover absolute lg:bottom-0 lg:w-[550px] lg:h-[550px]"></span>
+          </div>
+          <span class="block bg-pattern_curved_2 w-12 h-10 bg-cover mt-10 lg:-mt-32"></span>
+          <div class="md:w-[560px] lg:py-24 lg:w-[350px]">
+            <h2 class="heading-l text-creamWhite mt-10 lg:m-0">It just <b>works.</b></h2>
+            <q class="quote text-cream mt-10 block">I really like how it is an all-in-one   solution that handle many of the tasks that you would normally  need separate tools to do the same job. This thing is a miracle  worker.</q>
+            <h3 class="heading-m text-creamWhite font-bold mt-10">JEREMY ROBINSON</h3>
+            <h4 class="heading-s text-cream">CMO, FYLO</h4>
+          </div>
+        </div> 
+      </div>
+    </section>
+  </main>
+  <footer class="flex flex-col items-center gap-y-8 pb-20 pt-14 md:container md:mx-auto md:flex-row md:justify-between md:py-[72px] lg:py-24">
+    <a href="#"><img src="assets/logo.svg" alt="Logo" width="78" height="24"></a>
+    <p class="footer-text text-grey">Copyright - Suite</p>
+    <div class="flex gap-x-7">
+      <a class="hover:opacity-50" href="#"><img src="assets/icon-facebook.svg" alt="Facebook"></a>
+      <a class="hover:opacity-50" href="#"><img src="assets/icon-twitter.svg" alt="Twitter"></a>
+      <a class="hover:opacity-50" href="#"><img src="assets/icon-instagram.svg" alt="Instagram"></a>
+    </div>
+  </footer>
+</body>
+</html>

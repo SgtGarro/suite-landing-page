@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-button {
+  @apply bg-darkBlue px-8 py-3 inline-block rounded-md text-creamWhite font-bold text-lg leading-8 md:py-4;
+  transition: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+.primary-button:hover {
+  background: linear-gradient(135deg, #7860ff 0%, #cb30e3 49.21%, #ffa84e 100%);
+}
+.secondary-button {
+  @apply px-4 py-3 rounded-md font-bold inline-block text-sm leading-6 border border-darkBlue hover:bg-darkBlue hover:text-creamWhite transition md:leading-8 md:px-6;
+}
+
+.heading-xl {
+  @apply text-[38px] leading-[44px] tracking-[-0.53px] font-normal md:text-[56px] md:leading-[64px] md:tracking-[-0.78px] lg:text-7xl lg:leading-[78px] lg:tracking-[-1px];
+}
+.heading-l {
+  @apply text-5xl leading-[56px] tracking-[-0.5px] lg:text-5xl lg:leading-[56px];
+}
+.heading-m {
+  @apply lg:text-lg lg:leading-8 lg:tracking-[-0.2px];
+}
+.heading-s {
+  @apply lg:text-base lg:leading-[26px] lg:tracking-[2.5px];
+}
+.body-text {
+  @apply leading-7 lg:text-lg lg:leading-8;
+}
+.quote {
+  @apply text-lg leading-8 lg:text-xl lg:leading-[35px];
+}
+.footer-text {
+  @apply lg:text-[15px] lg:leading-8;
+}
